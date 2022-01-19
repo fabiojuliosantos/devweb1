@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer {
+    background: #636e72
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    background-color: #8395a7;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #111;
+}
+
+
+
