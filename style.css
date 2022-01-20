@@ -9,6 +9,13 @@
     outline: none;
 }
 
+@media only screen and (max-device-width: 360px){
+    .cabecalo{width: 360px;}
+    .mapa iframe{width: 100%; height: 100%}   
+
+}
+
+
 img {
     max-width: 100%;
 }
@@ -194,13 +201,136 @@ p {
     padding: 20px 8%;
 }
 
-.ondeestamos mapa {
+.ondeestamos p {
+    text-align: justify;
     float: left;
-    padding: 20px 8%;
 }
 
-.ondestamos p {
-    text-align: justify;
+.mapa iframe{
+    width: 480px;
+    height: 480px;
+}
+.EnviaMaterial{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 20px 8%;
+    
+}
+.formulariomaterial{
+    width: 50%;
+    padding: 20px 8%;
+    float:left;
+}
+
+.formulariomaterial input[type="text"]{
+    width: 100%;
+    padding: 10px 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+}
+.formulariomaterial input[type="email"]{
+    width: 100%;
+    padding: 10px 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float:left;
+}
+.formulariomaterial button{
+    width: 18%;
+    background-color: #576574;
+    padding: 10px 5px;
+    border-radius: 5px;
     float: right;
-    padding: 20px 8%
+    cursor: pointer;
+}
+.formulariomaterial input[type="file"]{
+    padding: 15px 10px;
+    float:left;
+    
+}
+
+.faleconosco{
+    width: 100%;
+    height: 100%;
+    padding: 20px 8%;
+    float:left;
+}
+
+.formulariofaleconosco{
+    width: 50%;
+    padding: 20px 8%;
+    float:left;
+}
+
+.formulariofaleconosco input[type="text"]{
+    width: 100%;
+    padding: 10px 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+}
+
+.formulariofaleconosco input[type="email"]{
+    width: 100%;
+    padding: 10px 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float:left;
+}
+
+.formulariofaleconosco button{
+    width: 18%;
+    background-color: #576574;
+    padding: 10px 5px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.formulariofaleconosco textarea{
+    resize: none;
+    width: 100%;
+    padding: 10px 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+}
+
+.pagina_registro {
+    width: 50%;
+    padding: 20px 8%;
+    float:left;
+}
+
+.form_registro{
+    width: 100%;
+    padding: 20px 8%;
+    float:left;
+}
+
+.form_registro input[type="text"]{
+    width: 100%;
+    padding: 10px 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+}
+
+.form_registro input[type="email"]{
+    width: 100%;
+    padding: 10px 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float:left;
+}
+
+.form_registro button{
+    width: 18%;
+    background-color: #576574;
+    padding: 10px 5px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
 }
