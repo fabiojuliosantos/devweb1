@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="funcoes.js"></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <title>Fale Conosco</title>
+    <title>Custos</title>
 </head>
 
 <body>
@@ -32,20 +32,55 @@
                     class="fab fa-instagram fa-lg"></i></a>
         </div>
     </nav>
-<article class="faleconosco">
-    <h2>Fale Conosco</h2>
-    <p>Preencha o Formulário para enviar sua mensagem</p>
-    <div class="formulariofaleconosco">
-    <form name="form_mensagem" method="post">
-        <input type="text" name="nome_mensagem" placeholder="Nome">
-        <input type="text" name="cpf_mensagem" id="cpf" placeholder="CPF" autocomplete="off" maxlength="14" onkeyup=mascara_cpf()>
-        <input type="text" name="cel_mensagem" id="cel" placeholder="Celular" maxlength="13" onkeyup=mascara_cel()>
-        <input type="email" name="email_mensagem" placeholder="E-mail">
-        <textarea name="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-        <input type="submit" onclick="validar_mensagem()">
-    </form>
-    </div>
-</article>
-<footer><iframe src="footer.html" width="100%" height="60px" scrolling="no" frameborder="0"></iframe></footer>
-</body>
-</html>
+    <body>
+        <div class="principal">
+        <h2>Custos Para Publicação de Um livro</h2>
+        <p>Estimativa de livro com 60 laudas. Para outros valores, entre em contato</p>
+        <table class="tabela_preco">
+            <tr>
+                <th>Item</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Registro via BN (Solicitado pelo Autor)</td>
+                <td>R$20,00</td>
+                
+            </tr>
+            <tr>
+                <td>Copidesque</td>
+                <td>R$600,00</td>
+            </tr>
+            <tr>
+                <td>Revisão</td>
+                <td>R$240,00</td>
+            </tr>
+            <tr>
+                <td>Diagramação</td>
+                <td>R$480,00</td>
+            </tr>
+            <tr>
+                <td>Capa (Impresso)</td>
+                <td>R$400,00</td>
+            </tr>
+            <tr>
+                <td>Revisão de Prova</td>
+                <td>R$240,00</td>
+            </tr>
+            <tr>
+                <td>ISBN</td>
+                <td>R$58,00</td>
+            </tr>
+            <tr>
+                <td>Ficha Catalográfica</td>
+                <td>R$60,00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>R$2098,00</td>
+            </tr>
+        </table>
+        </div>
+        <footer><iframe src="footer.html" width="100%" height="60px" scrolling = "no" frameborder="0"></iframe></footer>        
+    </body>
+    
+    </html>

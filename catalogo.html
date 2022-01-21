@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64e5cff442.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="funcoes.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Catálogo</title>
+</head>
+
+<body>
+    <header><iframe src="header.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe></header>
+    <nav class="menu">
+        <ul>
+            <li> <a href="index.html">Início</a></li>
+            <li> <a href="ondeestamos.html">Onde Estamos</a></li>
+            <li> <a href="catalogo.html">Catálogo</a></li>
+            <li> <a href="material.html">Envie seu Material</a></li>
+            <li> <a href="faleconosco.html">Fale Conosco</a></li>
+            <li><a href="custos.html">Custos</a></li>
+            <li><a href="registro.html">Registrar</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="http://www.fb.com" target="_blank" class="btn-facebook"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="http://www.twitter.com" target="_blank" class="btn-twitter"><i
+                    class="fab fa-twitter fa-lg"></i></a>
+            <a href="http://www.instagram.com" target="_blank" class="btn-instagram"><i
+                    class="fab fa-instagram fa-lg"></i></a>
+        </div>
+    </nav>
+    
+    <div class="container">
+       
+        <div class="galeria">
+            <div class="numbertext">1/4</div>
+                <img src="img/1.jpg" alt="Harry Potter e a Pedra Filosofal">
+        </div>
+        
+        <div class="galeria">
+            <div class="numbertext">2/4</div>
+                <img src="img/2.png" alt="O Senhor dos Anéis">
+        </div>
+
+        <div class="galeria">
+            <div class="numbertext">3/4</div>
+                <img src="img/3.jpg" alt="Jogos Vorazes">
+        </div>
+
+        <div class="galeria">
+            <div class="numbertext">4/4</div>
+                <img src="img/4.jpg" alt="Cidades de papel">
+        </div>
+    </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Harry Potter e a Pedra Filosofal"></div>
+      <div class="column">
+        <img class="demo cursor" src="img/2.png" style="width:100%" onclick="currentSlide(2)" alt="O senhor dos Anéis">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Jogos Vorazes">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Cidades de Papel">
+      </div>
+      <footer><iframe src="footer.html" width="100%" height="60px" scrolling = "no" frameborder="0"></iframe></footer>
+    </body>
+    </html>

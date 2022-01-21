@@ -7,8 +7,10 @@
     <script src="https://kit.fontawesome.com/64e5cff442.js" crossorigin="anonymous"></script>
     <!--Usado para obter os ícones-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="funcoes.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Editora Modernismo</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Registro</title>
 </head>
 
 <body>
@@ -17,9 +19,10 @@
         <ul>
             <li> <a href="index.html">Início</a></li>
             <li> <a href="ondeestamos.html">Onde Estamos</a></li>
-            <li> <a href="#">Catálogo</a></li>
+            <li> <a href="catalogo.html">Catálogo</a></li>
             <li> <a href="material.html">Envie seu Material</a></li>
             <li> <a href="faleconosco.html">Fale Conosco</a></li>
+            <li><a href="custos.html">Custos</a></li>
             <li><a href="registro.html">Registrar</a></li>
         </ul>
         <div class="social-icons">
@@ -37,13 +40,13 @@
             
             <p>Todos os campos a seguir são obrigatórios</p>
             <div class="form_registro">
-                <form action="registro.html" method="post">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="Data de Nascimento">
-                    <input type="text" placeholder="CPF">
-                    <input type="email" placeholder="E-mail">
-                    <input type="text"placeholder="Senha">
-                    <button>Enviar</button>
+                <form name="form_cadastro" action="registro.html" method="post">
+                    <input type="text" id="nome_cadastro" placeholder="Nome">
+                    <input type="text" name="data_cadastro" id="data" placeholder="Data de Nascimento(DD/MM/AAAA)" maxlength="10" onkeyup=mascara_data()>
+                    <input type="text" name="cpf_cadastro" id="cpf" placeholder="CPF" autocomplete="off" maxlength="14" onkeyup=mascara_cpf()>
+                    <input type="email" name="email_cadastro" id="email" placeholder="E-mail">
+                    <input type="password" name="senha_cadastro" id="senha"placeholder="Senha">
+                    <input type="submit" onclick="return validar_cadastro()">
                 </form>
             </div>
         </main>
